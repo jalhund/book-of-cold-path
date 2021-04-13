@@ -6,7 +6,7 @@ description: Description of different weapons and tips for use
 
 ## Weapons
 
-#### Infantry
+### Infantry
 
 The infantry deals damage to the enemy and also loses a certain number from their army. Only infantry can conquer an enemy province.
 
