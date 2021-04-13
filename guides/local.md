@@ -4,7 +4,7 @@
 
 1. Distribute Wi-Fi hotspot
 2. Start a single player game
-3. Select Open Server in the game menu
+3. Select **Open Server** in the game menu
 
 ### Client
 
