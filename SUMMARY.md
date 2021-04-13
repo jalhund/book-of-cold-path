@@ -8,6 +8,7 @@
 
 ## Guides
 
+* [How to play LAN game?](guides/local.md)
 * [Scenario Editor](guides/scenario-editor.md)
 * [Map Editor](guides/map-editor.md)
 

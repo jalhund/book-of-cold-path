@@ -11,7 +11,7 @@ description: Description of different weapons and tips for use
 The infantry deals damage to the enemy and also loses a certain number from their army. Only infantry can conquer an enemy province.
 
 Example with no bonuses:  
-You are attacking 1001 enemy province army with 1000 army. You will win, conquer a province and there will be 1 of your army in it.
+You are attacking 1000 enemy province army with 1001 army. You will win, conquer a province and there will be 1 of your army in it.
 
 ### Shell
 
