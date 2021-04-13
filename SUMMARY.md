@@ -5,6 +5,7 @@
 ## Game mechanics
 
 * [Армия](game-mechanics/army.md)
+* [Инфляция](game-mechanics/inflation.md)
 
 ## Guides
 
