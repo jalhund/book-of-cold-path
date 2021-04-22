@@ -2,7 +2,7 @@
 
 Inflation will start when the player accumulates the amount of money equal to income per turn \* 5
 
-Inflation is expressed as a percentage, where the minimum value \(0%\) is income per turn 5, __and the maximum value \(95%\) is income per turn 30.
+Inflation is expressed as a percentage, where the minimum value \(0%\) is income per turn \* 5, __and the maximum value \(95%\) is income per turn \* 30.
 
 Inflation reduces the player's income per turn.
 
