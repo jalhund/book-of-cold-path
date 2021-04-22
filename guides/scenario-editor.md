@@ -27,7 +27,7 @@ Let's go through these points in more detail:
 Scenario creation in short:  
 1. Settings - Dev menu - Scenario editor Select a map and a scenario and edit  
 2. In the editor menu, do not forget to click the Save scenario \(JSON\) button to save the scenario data along the path that is at the bottom left. \(if it does not save for you, then check the application permission to write files\)  
-3. Go to Settings - Dev menu. Choose Load scenario. The script will automatically load in the same path as it is usually exported. You can delete a scenario using the Remove last scenario button \(the last scenario will be removed\). The loaded script will appear in the game creation menu. It will be possible to select it in the same way as the ones built into the game \(the scenario can still be selected for editing in the scenario editor. But after that you will definitely need to save it, delete the last one and load the file\)
+3. Go to Settings - Dev menu. Choose Load scenario. The script will automatically load in the same path as it is usually exported. You can delete a scenario using the Remove custom scenario button. The loaded script will appear in the game creation menu. It will be possible to select it in the same way as the ones built into the game \(the scenario can still be selected for editing in the scenario editor. But after that you will definitely need to save it, delete the last one and load the file\)
 
 ![](../.gitbook/assets/oyn-5ioqv-e.jpg)
 
