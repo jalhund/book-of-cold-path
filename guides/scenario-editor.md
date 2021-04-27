@@ -14,7 +14,7 @@ Now let's take a closer look at the Edit scenario menu.
 1. Scenario settings \(scenario settings. Here you can change the scenario name and start year\)  
 2. List of civilizations \(list of countries. Here you can add a new country, change the existing one or delete\)  
 3. Provinces \(open the map for editing provinces data\)  
-4. Not ready yet.  
+4. Buildings \(buildings editor\)  
 5. Not ready yet.  
 6. Back
 
@@ -23,6 +23,14 @@ Let's go through these points in more detail:
 1. Scenario settings. Scenario id is the name of the scenario. You can change it to any other. Year - start year. Technology level \(0-21\) - here you can specify the level of technologies open by default in the game
 2. List of civilizations. Here is a list of countries. If you select a country from the list, you can change its name, color, or remove the country from the list. There is a Create button at the bottom - it adds a new country. Then you can edit it the way you need
 3. Provinces. When you go here, a map opens. There are two buttons at the top. One is blank and the other has a pencil icon. If you click the first, then when you select a province, nothing will happen. And if the second, then when you click on a province, it will belong to the country that is written at the bottom of the screen. By clicking on the Civilization button, you can select a country from the list for editing or create a new one
+4. Buildings.
+
+   Change - select building  
+   Control buttons:  
+   1\) empty - nothing  
+   2\) pencil icon - build selected building  
+   3\) red cross - remove all buildings  
+   4\) red pencil icon - remove selected building
 
 Scenario creation in short:  
 1. Settings - Dev menu - Scenario editor Select a map and a scenario and edit  
