@@ -31,5 +31,6 @@ Deals 30% damage to the population and army in the enemy province
 
 ### Nuclear weapon
 
-Destroys all population, army, buildings and make province Undeveloped Land. Also deals damage to the population and armies of neighboring provinces in the amount of 90%.
+Destroys all population, army, buildings and make province Undeveloped Land. Also deals damage to the population and armies of neighboring provinces in the amount of 90%.  
+To use a nuclear weapon, you need to unlock the Nuclear Weapon technology and accumulate 3 uranium
 
