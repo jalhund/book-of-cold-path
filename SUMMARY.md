@@ -6,6 +6,7 @@
 
 * [Army](game-mechanics/army.md)
 * [Inflation](game-mechanics/inflation.md)
+* [Ideology](game-mechanics/ideology.md)
 
 ## Guides
 
