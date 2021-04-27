@@ -6,6 +6,7 @@
 
 * [Армия](game-mechanics/army.md)
 * [Инфляция](game-mechanics/inflation.md)
+* [Идеологии](game-mechanics/ideology.md)
 
 ## Guides
 
