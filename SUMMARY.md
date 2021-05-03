@@ -11,6 +11,7 @@
 ## Guides
 
 * [Как играть по локальной сети?](guides/local.md)
+* [Как перевести игру на свой язык?](guides/translation.md)
 * [Редактор сценариев](guides/scenario-editor.md)
 * [Редактор карт](guides/map-editor/README.md)
   * [Обзор](guides/map-editor/map-editor-overview.md)
