@@ -10,6 +10,7 @@
 
 ## Guides
 
+* [Purchase issues solution](guides/purchase-solution.md)
 * [Adding custom translation to game](guides/translation.md)
 * [How to play LAN game?](guides/local.md)
 * [Scenario Editor](guides/scenario-editor.md)
