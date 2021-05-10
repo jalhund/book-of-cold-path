@@ -10,6 +10,7 @@
 
 ## Guides
 
+* [Решение проблем с покупками](guides/purchase-solution.md)
 * [Как играть по локальной сети?](guides/local.md)
 * [Как перевести игру на свой язык?](guides/translation.md)
 * [Редактор сценариев](guides/scenario-editor.md)
