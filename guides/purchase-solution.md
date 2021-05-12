@@ -16,3 +16,7 @@ Purchases should be made available. I advise you to check availability not in th
 
 The game checks for purchases from the default Google account. Check that default Google account is the account from which you made purchases. Default Google account is the first account added to the system
 
+### If none of the above helps
+
+If none of the above helped, then try clear game data and open game
+
