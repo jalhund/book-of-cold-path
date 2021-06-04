@@ -42,7 +42,7 @@ When playing with this ideology, remember: be careful and defend the capital as 
 
 ### Communism
 
-_During an enemy infantry attack on your land province 35% damage is ignored, of the remaining 20% damage to your army is dealt immediately, 80% damage is evenly distributed across all your provinces \(including the one that was attacked\)  
+_During an enemy infantry attack on your land province 20% damage is ignored, of the remaining 20% damage to your army is dealt immediately, 80% damage is evenly distributed across all your provinces \(including the one that was attacked\)  
 -40% gold per turn from population_  
   
 This is perhaps the most difficult ideology to understand.  
@@ -56,7 +56,7 @@ When to use this ideology? Best when defending a large country. When playing for
 ### Fascism
 
 Tank factory produces two tanks for the price of one  
-After you declare war on someone, your army gains an attack bonus +90% for 5 turns, after 5 turns your army gets a bonus to attack -25% until you declare war again  
+After you declare war on someone, your army gains an attack bonus +80% for 5 turns, after 5 turns your army gets a bonus to attack -25% until you declare war again  
   
 This ideology has 2 applications:   
 1. Produce tanks and sell them, so you can make good money  
