@@ -25,3 +25,7 @@
   * [Участие в разработке](guides/map-editor/map-editor-contributing.md)
   * [Советы по изменению исходников](guides/map-editor/map-editor-tips.md)
 
+## Server
+
+* [О глобальных серверах](server/summary.md)
+* [Установка сервера](server/init.md)
