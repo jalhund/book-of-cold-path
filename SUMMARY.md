@@ -30,4 +30,6 @@
 * [О глобальных серверах](server/summary.md)
 * [Установка сервера](server/init.md)
 * [Настройка сервера](server/customization.md)
+* [Плагины](server/plugins.md)
+* [Советы](server/tips.md)
 * [Возможные проблемы](server/problems.md)
