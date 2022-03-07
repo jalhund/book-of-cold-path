@@ -29,3 +29,5 @@
 
 * [О глобальных серверах](server/summary.md)
 * [Установка сервера](server/init.md)
+* [Настройка сервера](server/customization.md)
+* [Возможные проблемы](server/problems.md)
