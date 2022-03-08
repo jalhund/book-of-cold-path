@@ -1,10 +1,10 @@
-### Who is jalhund? 
+## Who is jalhund? 
 
 
 Just a man who likes turn-based strategy and started to create his own in his spare time
  
 
-### How many people are developing the game?
+## How many people are developing the game?
 
 
 I am alone, but I did not do everything alone.
@@ -14,7 +14,7 @@ The music was not created by me, its authors are listed in the About menu.  Some
 Also, a lot of cool ideas were written by the players.  It will not be possible to write everyone, but know that I am very grateful to you for your support and help in development.
 
 
-### What is the engine?
+## What is the engine?
 
 
 Game engine: Defold
@@ -26,7 +26,7 @@ For things that are not available in the engine, it is possible to write native 
 I really like the engine, ideal for 2D games. At first, everything is difficult and incomprehensible, but over time, you begin to appreciate the speed of development and its other advantages.
 
 
-### Is the game code open or closed?
+## Is the game code open or closed?
 
 
 The code of the game itself is closed. I do not plan to open it, since a lot of time was spent on development. There are purchases in the game itself, the money from them goes to rent servers, develop the game, etc.
@@ -40,7 +40,7 @@ The map editor code is open. Use it however you want.
 Yes. I will be glad that there will be one more good game in the world
 
 
-### Future plans?
+## Future plans?
 
 
 Create Cold Path 2, but there is very little free time.
