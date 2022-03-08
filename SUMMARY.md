@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Cold Path](README.md)
+* [О разработчике](about_dev.md)
 
 ## Game mechanics
 
