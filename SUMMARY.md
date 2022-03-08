@@ -31,5 +31,6 @@
 * [Установка сервера](server/init.md)
 * [Настройка сервера](server/customization.md)
 * [Плагины](server/plugins.md)
+* [Game Data](server/game_data.md)
 * [Советы](server/tips.md)
 * [Возможные проблемы](server/problems.md)
