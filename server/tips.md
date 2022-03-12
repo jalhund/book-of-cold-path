@@ -16,6 +16,60 @@
 
 Для карты, установленной на сервере, дополнительно измените название папки карты и указание карты в плагине game_switch и, если указан, в start.lua
 
+**Как запустить сервер на Windows**
+
+Закомментируйте в файле `plugins_manager.lua` строки, где подгружаются кастомные плагины из папки автоматически. 
+
+Было:
+```
+if not plugins_data.HOST_IS_PLAYER then
+    load_custom_plugins()
+end
+```
+Стало:
+```
+--if not plugins_data.HOST_IS_PLAYER then
+    --load_custom_plugins()
+--end
+```
+
+
+**Как запустить сервер на Windows без luassl**
+
+ Таким образом, вы сможете запустить сервер, используя только lua и luasocket. 
+ 
+ Замените строки в файлах:
+ 
+ *verifier.lua*
+ 
+````
+local verification_mode = "kick"
+````
+------
+````
+local verification_mode = "ignore"
+````
+
+*server_settings.lua*
+ 
+````
+verify_uuid = true,
+````
+------
+````
+verify_uuid = false,
+````
+
+
+*environment.lua*
+ 
+````
+ssl = require "ssl"
+````
+------
+````
+--ssl = require "ssl"
+````
 
 ## Кратко о том, что можно менять на сервере 
 
