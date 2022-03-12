@@ -22,6 +22,62 @@ Change `id` field in map_info.json file and `map` field in scenario.json file an
 For a map installed on the server, additionally change the name of the map folder and map reference in the game_switch plugin and, if specified, in start.lua
 
 
+
+**How to run a server on Windows**
+
+Comment out the lines in `plugins_manager.lua` file where custom plugins are automatically loaded from the folder.
+
+It was:
+ ```
+ if not plugins_data.HOST_IS_PLAYER then
+     load_custom_plugins()
+ end
+ ```
+It became:
+ ```
+ --if not plugins_data.HOST_IS_PLAYER then
+     --load_custom_plugins()
+ --end
+ ```
+
+
+**How ​​to run a server on Windows without luassl**
+
+This way you will be able to start the server using only lua and luasocket.
+ 
+Replace lines in files:
+ 
+*verifier.lua*
+ 
+````
+local verification_mode = "kick"
+````
+------
+````
+local verification_mode = "ignore"
+````
+
+*server_settings.lua*
+ 
+````
+verify_uuid = true,
+````
+------
+````
+verify_uuid = false,
+````
+
+
+*environment.lua*
+ 
+````
+ssl = require "ssl"
+````
+------
+````
+--ssl = require "ssl"
+````
+
 ## Briefly about what can be changed on the server
 
 
