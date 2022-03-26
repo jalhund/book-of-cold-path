@@ -88,7 +88,7 @@ cd server1
 ```
 We will drop our server into this folder. Write command to download the latest version of the server:
 ```
-git clone https://github.com/JAlHund/coldpathserver
+git clone https://github.com/JAlHund/cold-path-server
 ```
 Or just upload the downloaded sources to the server in another way
 
