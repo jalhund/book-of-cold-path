@@ -14,6 +14,7 @@
 * [Purchase issues solution](guides/purchase-solution.md)
 * [Adding custom translation to game](guides/translation.md)
 * [How to play LAN game?](guides/local.md)
+* [Commands](guides/commands.md)
 * [Scenario Editor](guides/scenario-editor.md)
 * [Map Editor](guides/map-editor/README.md)
   * [Overview](guides/map-editor/map-editor-overview.md)
