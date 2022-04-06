@@ -13,6 +13,7 @@ description: Game commands
 * /music_off - turn off music
 *  /nolags - no delays and freezes in multiplayer, but there must be a stable connection (default mode)
 * /nodisconnect - there may be freezes and delays, but you can play with an unstable connection with a high ping (choose if you are often kicked in multiplayer)
+* /profile <sec> - profile game performance over time and save the report to a file
 
 
 ## Multiplayer
@@ -26,6 +27,7 @@ description: Game commands
 * /uuid - show uuid and write it to uuid.txt file
 * /select - select province (for /setciv command) 
 * /load - load map and scenario from server to single
+* /profile <sec> - profile game performance over time and save the report to a file
 
 
 **Commands of standard plugins, if not removed by server owners**
