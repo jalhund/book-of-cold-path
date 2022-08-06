@@ -27,6 +27,7 @@ description: Game commands
 * /select - select province (for /setciv command)
 * /load - load map and scenario from server to single
 * /profile - profile game performance over time and save the report to a file
+* /hide \<seconds> - hide user interface
 
 **Commands of standard plugins, if not removed by server owners**
 
