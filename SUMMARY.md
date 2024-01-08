@@ -1,7 +1,7 @@
 # Table of contents
 
-* [Cold Path](README.md)
-* [О разработчике](about_dev.md)
+* [О разработчике](README.md)
+* [Cold Path](<README (1).md>)
 
 ## Game mechanics
 
@@ -33,6 +33,6 @@
 * [Установка сервера](server/init.md)
 * [Настройка сервера](server/customization.md)
 * [Плагины](server/plugins.md)
-* [Game Data](server/game_data.md)
+* [Game Data](server/game\_data.md)
 * [Советы](server/tips.md)
 * [Возможные проблемы](server/problems.md)
