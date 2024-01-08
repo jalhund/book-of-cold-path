@@ -1,7 +1,7 @@
 # Table of contents
 
-* [Cold Path](README.md)
-* [About dev](about_dev.md)
+* [About dev](README.md)
+* [Cold Path](<README (1).md>)
 
 ## Game mechanics
 
@@ -25,14 +25,13 @@
   * [Limitations of editor](guides/map-editor/map-editor-limitations-of-editor.md)
   * [Contributing](guides/map-editor/map-editor-contributing.md)
   * [Tips for modifying sources](guides/map-editor/map-editor-tips.md)
- 
- 
+
 ## Server
+
 * [Global servers](server/summary.md)
 * [Create server](server/init.md)
-*  [Customization](server/customization.md)
-*  [Plugins](server/plugins.md)
-*  [Game Data](server/game_data.md) 
+* [Customization](server/customization.md)
+* [Plugins](server/plugins.md)
+* [Game Data](server/game\_data.md)
 * [Tips](server/tips.md)
-*  [Common problems](server/problems.md) 
-
+* [Common problems](server/problems.md)
