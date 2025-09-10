@@ -2,6 +2,7 @@
 
 * [About dev](README.md)
 * [Cold Path](<README (1).md>)
+* [Changelog](changelog.md)
 
 ## Game mechanics
 
@@ -32,6 +33,6 @@
 * [Create server](server/init.md)
 * [Customization](server/customization.md)
 * [Plugins](server/plugins.md)
-* [Game Data](server/game\_data.md)
+* [Game Data](server/game_data.md)
 * [Tips](server/tips.md)
 * [Common problems](server/problems.md)
