@@ -2,6 +2,7 @@
 
 * [О разработчике](README.md)
 * [Cold Path](<README (1).md>)
+* [Список изменений](changelog.md)
 
 ## Game mechanics
 
@@ -33,6 +34,6 @@
 * [Установка сервера](server/init.md)
 * [Настройка сервера](server/customization.md)
 * [Плагины](server/plugins.md)
-* [Game Data](server/game\_data.md)
+* [Game Data](server/game_data.md)
 * [Советы](server/tips.md)
 * [Возможные проблемы](server/problems.md)
