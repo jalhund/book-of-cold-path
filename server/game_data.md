@@ -61,3 +61,7 @@ relations.register_war(land1, land2)
 | a     | таблица с данными об армии в этой провинции (key - id страны, val - число армии)  |
 | l_a   | нанимаемая в данный момент армия, которая будет доступна на след ход              |
 | r     | таблица с ресурсами (как заполнять, можно посмотреть в файле fill_resources.lua)  |
+
+### Данные шпионажа
+
+Добавлены `game_data.espionage_enabled`, `game_data.espionage_scouted` и `game_data.espionage_notifications`. В данных страны `intelligence` хранит очки разведки, а `counter_intelligence` — долю дохода на контрразведку (например, `0.05` для 5%). Снимки разведки очищаются на следующем ходу.
