@@ -8,7 +8,7 @@ Set time for turn
 ```
 nano server_settings.lua
 ```
-It's in seconds and defaults to 180. Let's change it to 210 so it's 3.5 minutes
+It's in seconds and currently defaults to 70. Let's change it to 210 so it's 3.5 minutes
 
 Use the arrows on your keyboard to navigate to this number and change it (but don't type numbers on the Numpad, type them using the numbers above the letters)
 
@@ -38,7 +38,7 @@ screen -r server1
 ## How to add custom scenario
 
 
-By default, the server has a map and scenario from the active parkourcat player. This is to make it easier for you to set up your custom maps and scenarios based on an existing example.
+The server now starts with europe/millenium by default. Initial selection is configured in scripts/scenario_selection.lua.
 
 So, we want to add scenario to server (if you have just connected to the server, then do not forget to enter the ``screen -r server1`` command from the previous topic to go to the server screen. If you go and the server is running, then turn it off with the Double CTRL + C command)
 
@@ -48,19 +48,21 @@ Next you need to decide:
  1) you want this scenario to run when server starts
  2) you want this scenario to be one of those scenarios that automatically starts after the end of the game
 
-If first, then you need to edit start.lua file. Open this file with an editor
+For the first option, edit scripts/scenario_selection.lua:
+
 ```
-nano start.lua
+nano scripts/scenario_selection.lua
 ```
-Find line
+
+Add your module to the SCENARIOS table alongside the existing entries, for example:
+
+```lua
+my_map = {
+    demo = "scripts.scenarios.my_map.demo"
+},
 ```
-game_data = require "scripts.scenarios.euro.std"
-```
-Change it to 
-```
-game_data = require "scripts.scenarios.<карта>.<сценарий>"
-```
-Save it. (CTRL + X, type y, press enter) 
+
+Then run `luajit start.lua --map my_map --scenario demo`. If you use start.sh, add those arguments to its launch command. Save as usual with CTRL + X, y, enter.
 
 If second, then we already need to edit the standard game_switch plugin (you can also write your own plugins, but this is a separate and complicated topic. In order to write plugins, you need to program. But this opens up very great opportunities)
 
@@ -92,7 +94,7 @@ Start server
 
 1. Create a map in Map Editor.
  2. Create `maps` folder. 
- 3. Rename `exported_map` folder to map id and place it in the `maps` folder.
+3. Name the exported `.map` package `<map ID>.map` and put it in `maps`. Its ID must match the scenario's `map` field. Convert old `exported_map/` directories with the current editor first; they no longer replace the package.
  4. Add your scenario made for this custom map to the server
 
 Players do not need to install anything, the map will be loaded automatically when connecting server

@@ -31,6 +31,17 @@ Deals 30% damage to the population and army in the enemy province
 
 ### Nuclear weapon
 
-Destroys all population, army, buildings and make province Undeveloped Land. Also deals damage to the population and armies of neighboring provinces in the amount of 90%.  
+Destroys all population, army, buildings and make province Undeveloped Land. Also deals damage to the population and armies of neighboring provinces in the amount of 75%.  
 To use a nuclear weapon, you need to unlock the Nuclear Weapon technology and accumulate 3 uranium
 
+### ABM
+
+An ABM building in the target province intercepts a nuclear strike with a 90% probability. Building it requires the Nuclear Defense technology.
+
+### Drone
+
+A drone deals 5,000 base damage to troops and reduces fortress level by 2. Drone factories are available to Technocracy. Infantry is still needed to capture the province.
+
+### Military robots
+
+Technocracy cannot recruit population into the army. An operating robot factory adds 1,000 troops to its own province per turn. Robot and drone factories stop producing if the province owner is no longer a Technocracy.

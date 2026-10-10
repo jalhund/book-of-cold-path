@@ -19,3 +19,6 @@ Luxembourg does not spend money. Data obtained by experimental verification in t
 | 15 | 9328 | 469 | 39% |
 | 31 | 15110 | 280 | 64% |
 
+### Anarchism
+
+Anarchism reduces the upper inflation threshold in the calculation from 30 to 6 turns of income. Maximum inflation remains 95%, but is reached much sooner.

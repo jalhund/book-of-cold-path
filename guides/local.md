@@ -16,3 +16,4 @@ Try to connect to it, even if it is not updated by clicking the **Refresh** butt
 
 If it writes **Connection error**, check if you are connected to Wi-Fi
 
+If the Wi-Fi Local Server entry does not match your network, use **Direct connection** with the host's local IP and port 5555, for example `192.168.1.25:5555`. The list's fallback address `192.168.43.1` does not match every modern hotspot.

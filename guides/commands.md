@@ -38,8 +38,8 @@ _Players_
 
 _Premium_
 
-* /rc - change civilization (no more 3 times per game)
-* /pass - allow a player to join the official server even if they don't have a license
+* /rc - remove the country binding and reconnect for a new selection (30-second cooldown)
+* /pass <name> - command of the older verification plugin; the current verifier does not perform a license check on registration
 * /setcolor r g b - set civilization color (RGB 0 - 255). Example: /setcolor 255 0 0 - red
 * /rtr - start voting to start a new game
 
@@ -57,3 +57,12 @@ _Admin_
 * /shutdown - shutdown server
 * /select - select province
 * /setciv - set player on country chosen by command /select
+
+Additional commands in the current server:
+
+* /vote y or /vote n - vote for or against a new game
+* /unban <ban ID> - remove a ban by record ID
+* /setdifficulty <easy/standard/hard/impossible> - change difficulty
+* /forcenext - force the next turn
+
+The former Commands purchase is no longer required. Server group permissions in permissions.lua still apply; availability depends on plugins and owner configuration.

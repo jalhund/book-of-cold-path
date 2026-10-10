@@ -11,7 +11,7 @@ First you need to rent a suitable server. A VPS with 512 MB of RAM fits without 
 After you have bought it, you will receive an email with:
 
 1. ip address of the server (which you will use to connect)
-2. login and password OS: debian9 (you can use another, but in this topic it will be used)
+2. login and password OS: Debian or Ubuntu (you can use another, but in this topic it will be used)
 
 #### Programs
 
@@ -126,6 +126,7 @@ ls
 Give permission to the script to run
 
 ```
+mkdir -p logs
 chmod +x start.sh
 ```
 
@@ -138,3 +139,11 @@ Start server
 As you can see, server has started, and now you can connect to it in the game
 
 Select Direct Connection from the Join menu and write ip:port (example: 127.0.0.1:5555). Default port is 5555
+
+Initial scenario selection now uses `scripts/scenario_selection.lua`, defaulting to `europe/millenium`. You can run directly with arguments:
+
+```bash
+luajit start.lua --map europe --scenario millenium --server-port 5555
+```
+
+`start.sh` calls `luajit start.lua` without arguments; edit that command in the wrapper for a persistent different selection. Current hashing uses FFI, so the server requires LuaJIT.

@@ -8,7 +8,7 @@ You need to execute for all screens or execute in the root and then recreate the
 
 #### Premium features not working for players
 
-Check the verification\_server file in the server root to see if it matches the one on github. Or contact the developer
+Check the game account and purchase synchronization using the [recovery guide](../guides/purchase-solution.md). In the current standalone server, verifier.verify_registration immediately returns true, so verification_server is no longer a way to restore an add-on.
 
 #### Server does not start
 

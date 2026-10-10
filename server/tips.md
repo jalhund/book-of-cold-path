@@ -10,18 +10,15 @@ To implement your plugin, take any existing one as a basis. Check existing featu
 **Remove license check on connection (make server free to join)**
 
 
-Open `core/server/plugins/verifier.lua`
- and change `verification_mode` from `kick` to `ignore` 
+The current `core/server/plugins/verifier.lua` immediately returns true on registration, and settings disable verify_uuid. Changing verification_mode is no longer needed to allow free joining. Server command permissions still come from permissions.lua. 
 
 
 **How to rename map**
 
 
-Change `id` field in map_info.json file and `map` field in scenario.json file and in all other scenario files for this map, if they exist
+Renaming a `.map` file does not change its internal ID. To use another ID, update the source map data and the `map` field of all its scenarios consistently, then repack with the editor. Do not edit the binary `.map` with a text editor.
 
-For a map installed on the server, additionally change the name of the map folder and map reference in the game_switch plugin and, if specified, in start.lua
-
-
+The standalone server package belongs in `maps/<map ID>.map`; register its scenario in scripts/scenario_selection.lua for startup and game_switch for rotation.
 
 **How to run a server on Windows**
 
@@ -43,20 +40,10 @@ It became:
 
 **How ​​to run a server on Windows without luassl**
 
-This way you will be able to start the server using only lua and luasocket.
+This way you can run the server using LuaJIT and LuaSocket without LuaSec. Ordinary Lua is no longer sufficient: luaxxhash.lua uses FFI.
  
 Replace lines in files:
  
-*verifier.lua*
- 
-````
-local verification_mode = "kick"
-````
-------
-````
-local verification_mode = "ignore"
-````
-
 *server_settings.lua*
  
 ````
@@ -119,11 +106,11 @@ convert_to_global.lua - the same as above, only here is the lua code, this thing
 
 environment - any global functions. Like displaying tables on the screen, functions for encoding data in JSON for sending over the network, and also defining global modules that should be available in all scripts, for example, luasocket
 
-game_data.json - current server save
+game_data.json - diagnostic data if created by your configuration; current start.lua does not automatically load it as a server save
 
 log - server log. What plugins were loaded and when, when what actions took place
 
-luaxxhash.lua - an auxiliary module that was needed to check whether the game data was received correctly on the devices (not used yet, but will come in handy if the data sending system is rewritten)
+luaxxhash.lua - hashing used to verify transferred game state and custom maps
 
 README.md - project description
 
@@ -166,3 +153,5 @@ offers.lua - message system between countries. For example, someone sent someone
 relations.lua - relations between countries. Start a war, find out who is fighting with whom. Find out if a country is a vassal
 
 timer.lua - timer module. So that every 3 minutes there is next turn or every 30 seconds the server checks the connection
+
+When disabling discovery, explicitly register the needed extra plugins in plugins_list with data and order. Otherwise they will not load, including any administrative commands and rotation you need.

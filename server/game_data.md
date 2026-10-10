@@ -64,3 +64,7 @@ The contents of this table are:
 | a     | table with data about the army in this province (key - country id, val - army number) |
 | l_a   | currently hired army that will be available next turn              |
 | r     | table with resources (how to fill it in, you can see in the fill_resources.lua file)  |
+
+### Espionage data
+
+New fields include `game_data.espionage_enabled`, `game_data.espionage_scouted` and `game_data.espionage_notifications`. Country `intelligence` stores intelligence points, while `counter_intelligence` is the income share allocated to counter-intelligence (for example, `0.05` for 5%). Scouting snapshots are cleared on the next turn.

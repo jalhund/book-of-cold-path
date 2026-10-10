@@ -9,6 +9,7 @@
 * [Army](game-mechanics/army.md)
 * [Inflation](game-mechanics/inflation.md)
 * [Ideology](game-mechanics/ideology.md)
+* [Espionage and counter-intelligence](game-mechanics/espionage.md)
 
 ## Guides
 
